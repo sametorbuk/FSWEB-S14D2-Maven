@@ -10,4 +10,8 @@ public class Wall {
     public void create(){
         System.out.println("Wall has been built.");
     }
+
+    public String getDirection() {
+        return direction;
+    }
 }

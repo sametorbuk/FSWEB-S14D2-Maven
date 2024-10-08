@@ -26,9 +26,9 @@ public class Lamp {
         return globRating;
     }
 
-    public Lamp(boolean battery, LampType style, int globRating) {
-        this.battery = battery;
+    public Lamp(LampType style, boolean battery, int globRating) {
         this.style = style;
+        this.battery = battery;
         this.globRating = globRating;
     }
 }
